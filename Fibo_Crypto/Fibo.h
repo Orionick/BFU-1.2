@@ -14,6 +14,7 @@ private:
 	string m_encrypted_sentence;
 	string m_decrypted_sentence;
 	vector<int> m_key;
+
 	vector<string> m_splited;
 
 	const int FIBO_LINE[30] = {1, 2, 3, 5, 8, 13, 21, 34, 55, 89,
