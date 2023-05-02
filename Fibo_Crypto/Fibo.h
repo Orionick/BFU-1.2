@@ -1,3 +1,8 @@
+#pragma once
+
+#ifndef FIBO_H_
+#define FIBO_H_
+
 #include <string>
 #include <vector>
 #include <iostream>
@@ -30,3 +35,5 @@ public:
 	string Encrypt(vector<int>& key);
 	string Decrypt(vector<int>& key);
 };
+
+#endif

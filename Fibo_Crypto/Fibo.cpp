@@ -1,5 +1,3 @@
-#pragma once
-
 #include "Fibo.h"
 
 Fibo::Fibo(const string& sentence)
