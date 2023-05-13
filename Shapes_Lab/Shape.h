@@ -14,7 +14,7 @@ private:
 public:
 	Shape() = default;
 	virtual ~Shape() = default;
-
+	virtual std::string name_type() const = 0;
 	virtual double GetShapeSquare() = 0;
 	virtual std::string GetShapeColor() = 0;
 };

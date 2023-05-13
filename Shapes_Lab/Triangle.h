@@ -19,7 +19,7 @@ public:
 	Triangle() = default;
 	Triangle(std::map<char, std::pair<double, double>> points, std::string color);
 	~Triangle() = default;
-
+	std::string name_type() const override { return "triangle"; }
 	double GetShapeSquare() override;
 	std::string GetShapeColor() override;
 };

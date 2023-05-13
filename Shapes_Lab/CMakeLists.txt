@@ -15,7 +15,7 @@ project ("Shapes_Lab")
 add_executable (Shapes_Lab "main.cpp"  "Shape.h"  "Triangle.h" "Triangle.cpp" "Rectangle.h" "Rectangle.cpp" "Circle.h" "Circle.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET Shapes_Lab PROPERTY CXX_STANDARD 20)
+  set_property(TARGET Shapes_Lab PROPERTY CXX_STANDARD 14)
 endif()
 
 # TODO: Add tests and install targets if needed.

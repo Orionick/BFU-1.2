@@ -20,9 +20,9 @@ public:
 	Rectangle() = default;
 	Rectangle(std::map<char, std::pair<double, double>> points, std::string color);
 	~Rectangle() = default;
-
-	double GetShapeSquare();
-	std::string GetShapeColor();
+	std::string name_type() const override { return "rectangle"; }
+	double GetShapeSquare() override;
+	std::string GetShapeColor() override;
 };
 
 #endif

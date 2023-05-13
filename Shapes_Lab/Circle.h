@@ -19,9 +19,9 @@ public:
 	Circle(std::pair<double, double> center, double radius, std::string color);
 	Circle(std::pair<double, double> center, std::pair<double, double> point, std::string color);
 	~Circle() = default;
-
-	double GetShapeSquare();
-	std::string GetShapeColor();
+	std::string name_type() const override { return "circle"; }
+	double GetShapeSquare() override;
+	std::string GetShapeColor() override;
 };
 
 #endif
